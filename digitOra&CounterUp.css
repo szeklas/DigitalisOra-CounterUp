@@ -1,0 +1,61 @@
+/* DIGITÁLIS ÓRA */
+
+h1{
+    font-variant: small-caps;
+}
+
+#digitOra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#digitOraPanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.evPanel{
+    font-size: 1rem;
+}
+
+
+/* COUNTER UP */
+
+#counterUp{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+#counterUp i{
+    font-size: 2rem;
+}
+
+.counterBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    font-size: 2rem;
+}
+
+.counterTitle{
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    font-weight: bold;
+}
